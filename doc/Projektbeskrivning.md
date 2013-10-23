@@ -2,9 +2,9 @@
 # Projektnamn här
 "Kaffemuggen"
 
-Alexander Danelsson,        ad222in,        870328-6578,
-Anders Robelius,            ar222da,        790205-5594.
-Johan Liljeberg             jl22rw,         900808-3256.
+Alexander Danelsson,        ad222in,        
+Anders Robelius,            ar222da,        
+Johan Liljeberg             jl22rw,     
 
 
 Projektmedlemmar: 

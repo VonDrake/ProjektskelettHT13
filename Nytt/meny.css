@@ -1,0 +1,33 @@
+#meny
+{
+margin: 0;
+padding: 0;
+}
+#ul {
+list-style-type: none;
+background-image: url(../doc/pic/Menybakgrund.jpg);
+height: 80px;
+width: 860px;
+margin: auto;
+}
+#ul li {
+list-style-type: none;
+float: left;
+}
+#ul a {
+list-style-type: none;
+/*background-image: url(../doc/pic/blackborder.png);
+background-repeat: no-repeat;
+background-position: right;*/
+padding-right: 32px;
+padding-left: 32px;
+display: block;
+line-height: 80px;
+text-decoration: none;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 21px;
+color: #371C1C;
+}
+#ul a:hover {
+color: #FFF;
+}

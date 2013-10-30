@@ -1,0 +1,101 @@
+
+a:link { color:red }
+a:visited { color: red; }
+a:hover { background-color:white; }
+
+
+
+#container{
+    
+       
+   
+    background-color:white;
+    overflow: auto;
+    max-width:960px;
+    margin: 0 auto;
+    padding:0;
+    
+    
+    }
+    
+    
+    
+#top{
+    
+    color:white;
+    border: 10px solid white;
+    background-color:white;
+    margin: 0 auto;
+    max-width:960px;
+    
+    background-image:url(doc/pic/Kaffebonor.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+   
+    background-attachment:none;
+    background-position:center;
+ padding-top:10px;
+    
+}
+#meny{
+           
+               
+               
+}
+#content{
+    
+     
+       background-color:white;
+        width:940px;
+        float:inherit;
+        padding-top:100px;
+        
+        margin:0 auto;
+    
+      
+}
+
+
+
+
+
+#footer{
+    
+ 
+   
+   
+    border: 50px solid white;
+    background-color:white;
+    margin: 0 auto;
+    max-width:960px;
+    height:100px;
+    background-image:url(doc/pic/bakg.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+   
+    background-attachment:none;
+    background-position:center center;
+         
+  
+}
+
+
+    
+ .any-tag:after {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    background: url(url-to-your-image);
+    opacity: .5;
+    
+ }
+
+
+
+
+
+

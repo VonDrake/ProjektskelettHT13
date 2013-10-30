@@ -1,0 +1,227 @@
+#container
+{
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(249,221,99);
+    font-family:verdana;
+    
+}
+
+@media only screen and (max-width:481px)
+{
+    #container 
+    {
+        
+        width: 310px;
+        margin: 0 auto;
+        background-color: rgb(249,221,99);
+        font-family:verdana;
+    }
+}
+
+
+
+#top
+{
+    height: 100px;
+    background-image: url(../doc/pic/studentmo.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+
+#navigation 
+{
+    width:960px;
+    margin:0;
+}
+
+#navigation ul
+{
+    list-style-type:none;
+    padding:0;
+
+}
+
+#navigation ul li
+{
+    background-color:white;
+    font-size: 13px;
+    float:left;
+    margin-top: 0;
+    margin-bottom:0;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#navigation ul li a
+{
+    color:blue;
+    padding:2px;
+}
+
+@media only screen and (max-width:481px)
+{
+    #navigation 
+    {
+        width:310px;
+        margin:0;
+    }
+
+    #navigation ul
+    {
+        list-style-type:none;
+    }
+
+    #navigation ul li
+    {
+
+    }
+
+    #navigation ul li a
+    {
+        background-color:white;
+        font-size: 20px;
+        height: 50px;
+        margin: 10px;
+       
+
+        color:blue;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+
+
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#footer {
+    clear:left;
+}
+
+#formulärdel1
+{
+    margin-bottom: 10px;
+    
+}
+
+#formulärdel2
+{
+    margin-bottom: 10px;
+    
+}
+
+.saljtextuppgifter
+{
+    padding:0;
+    width:200px;
+    float:left;
+}
+
+.saljtextfält
+{
+    padding:0;
+    width:200px;
+}
+
+.datumtextuppgifter
+    {
+        padding:0;
+        width: 200px;
+        float:left;        
+    }
+
+@media only screen and (max-width:481px)
+{
+.datumtextuppgifter
+    {
+        padding:0;
+        width: 200px;
+        float:none;
+    }
+}
+
+
+
+.datumfält
+{
+    width:20px;
+    padding:0;
+}
+
+.beskrivningtext
+{
+    padding:0;
+    width: 200px;
+    float:left;
+}
+
+.beskrivningfalt
+{
+    width: 200px;
+}
+
+.bildtext
+{
+    padding:0;
+    width: 200px;
+    float: left;
+}
+
+.bildknapp
+{
+    
+}
+
+.inlagg {
+            padding-left: 10px;
+            padding-right: 10px;          
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            margin-bottom: 10px;
+            background-color: white;
+            width:250px;
+            float:left;
+            margin-right:30px;
+            }
+            
+        .inlaggrubrik {
+            background-image: url(pics/Cr-ations-32.png);
+            background-repeat: no-repeat;
+            padding-left: 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid;
+            margin-bottom: 10px;
+        }
+        
+        .inlaggavslut {
+            text-align: right;
+            font-size: 0.7em;
+            font-style: italic;
+        }
+        
+ .right { 
+                padding-top: 10px;
+                width: 200px;
+                height: 200px;
+             
+        }
+        
+        @media only screen and (max-width: 481px)
+        {
+            .right 
+            {
+                padding: 0;
+                float: none;
+                clear:both;
+                margin-left:0;
+            }
+        
+        }
+
+

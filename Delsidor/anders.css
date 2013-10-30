@@ -1,0 +1,122 @@
+#container
+{
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(153,121,62);
+    
+}
+
+@media only screen and (max-width:481px)
+{
+    #container 
+    {
+        
+        width: 310px;
+        margin: 0 auto;
+        background-color: rgb(153,121,62);
+        opacity:1;
+        filter:alpha(opacity=10);
+    }
+}
+
+
+
+#top
+{
+    height: 100px;
+    background-image: url(../doc/pic/coffe1.png);
+    background-repeat: no-repeat;
+    opacity:0.3;
+    filter:alpha(opacity=10);
+    margin-bottom: 0;
+
+}
+
+.overstarubrik {
+    color:white;
+}
+
+#navigation 
+{
+    width:500px;
+    margin:0;
+}
+
+@media only screen and (max-width:481px)
+{
+    #navigation 
+    {
+        width:310px;
+        margin:0;
+    }
+}
+
+
+
+#navigation ul
+{
+    list-style-type:none;
+    padding:0;
+
+}
+
+#navigation ul li
+{
+    background-color:white;
+    font-size: 13px;
+    float:left;
+    margin-top: 0;
+    margin-bottom:0;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#navigation ul li a
+{
+    color:blue;
+    padding:2px;
+}
+
+
+#content
+{
+    padding: 20px;
+}
+
+
+
+#formulärdel1
+{
+    margin-bottom: 50px;
+    
+}
+
+#formulärdel2
+{
+    margin-bottom: 50px;
+    
+}
+
+
+.textantal {
+    float: left;   
+    width: 80px;
+}
+
+.textfält {
+   
+    width: 20px;
+    height: 15px;
+}
+
+.textuppgifter {
+   
+    width: 200px;
+}
+
+.textfältuppgifter {
+    border: 1px;
+    border-color: black;
+    width: 250px;
+    height: 15px;
+}

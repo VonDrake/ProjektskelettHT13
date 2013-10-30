@@ -2,40 +2,41 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8"/>
-
-
-    
- <title>Beställning</title>    
-</head>
+        <title>Beställning</title>    
+    </head>
            
-<body>
+    <body>
 
-<div id="Formulär">
- <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="Beställning">
-	  <fieldset>
-    	<legend>Färg</legend>
-    	
-    	  <input type="radio" name="Röd" value="Röd">Röd
-          <input type="radio" name="Gul" value="Gul">Gul
-          <input type="radio" name="Vit" value="Vit">Vit
-          <input type="radio" name="Svart" value="Svart">Svart
-      </fieldset>
-    <fieldset>
-        	<legend>Beställning</legend>
+        <div id="Formulär">
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="Beställning">
+    	    <fieldset>
+        	<legend>Färg</legend>
+        	
+        	  <input type="checkbox" name="Röd" value="Röd">Röd
+              <input type="checkbox" name="Gul" value="Gul">Gul
+              <input type="checkbox" name="Vit" value="Vit">Vit
+              <input type="checkbox" name="Svart" value="Svart">Svart
+            </fieldset>
+    
+            <fieldset>
+        	    <legend>Beställning</legend>
              
-        	<label for="Användare">Privat/företag</label>
+        	    <label for="Användare">Privat/företag</label>
         	    <select name="Användare" id="Användare">
             		<option value="Privat">Privat</option>
             		<option value="Företag">Företag</option>
-        	    </select>
+	            </select>
         	<p></p>
-        	  <label for="form_header">Antal:</label>
-        	  <input type="text" id="form_header" name="Antal" />
+        	  
+        	    <label for="form_header">Antal:</label>
+        	    <input type="text" id="form_header" name="Antal" />
         	<p></p>
-              <label for="form_header">Logga/bild:</label>
-        	 
-        	  <input type="text" id="form_header" name="Fråga"class="button"><input type="submit" value="Ladda upp" /></div> 
-        	<div class="button"><input type="submit" value="Skicka" /></div>
+            
+            <label for="form_header">Logga/bild:</label>
+        	<input type="text" id="form_header" name="Fråga"class="button">
+        	<input type="submit" value="Bläddra">  
+        	<input type="submit" value="Ladda upp" /></div> 
+            <div class="button"><input type="submit" value="Skicka" /></div>
 	</fieldset>
 	</form>
  </div>

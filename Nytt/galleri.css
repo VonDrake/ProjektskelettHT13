@@ -1,24 +1,20 @@
-#meny
+#gall
 {
 margin: 0;
 padding: 0;
 }
-#ul {
-list-style-type: none;
-background-image: url(../doc/pic/Menybakgrund.jpg);
+#gallback {
+background-image: url(../doc/pic/lightblueback.jpg);
 height: 80px;
 width: 860px;
 margin: auto;
 }
-#ul li {
+#gallback li {
 list-style-type: none;
 float: left;
 }
-#ul a {
+#gallback a {
 list-style-type: none;
-/*background-image: url(../doc/pic/blackborder.png);
-background-repeat: no-repeat;
-background-position: right;*/
 padding-right: 32px;
 padding-left: 32px;
 display: block;
@@ -28,12 +24,12 @@ font-family: Georgia, "Times New Roman", Times, serif;
 font-size: 21px;
 color: #371C1C;
 }
-#ul a:hover {
+#gallback a:hover {
 color: #FFF;
 }
 #polaroid-images a
 {
-	background: white;
+background-image: url(../doc/pic/lightblueback.jpg);
 	display: inline;
 	float: left;
 	margin: 0 15px 30px;
@@ -94,3 +90,4 @@ color: #FFF;
 	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
         box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}

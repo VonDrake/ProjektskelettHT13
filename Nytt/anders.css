@@ -1,6 +1,6 @@
 #container
 {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     background-color: rgb(249,221,99);
     font-family:verdana;
@@ -30,57 +30,65 @@
 }
 
 
-#navigation 
-{
-    width:960px;
-    margin:0;
+
+#navigation {
+    width: 960px;
+    height: 35px;
 }
 
-#navigation ul
-{
-    list-style-type:none;
-    padding:0;
+#navigation ul {
+    padding-left: 10px;
+    padding-top: 0;
+    font-family: verdana;
+    font-size: 0.8em;
+    list-style-type: none;
+    float: right;
 
 }
 
-#navigation ul li
-{
-    background-color:white;
-    font-size: 13px;
-    float:left;
-    margin-top: 0;
-    margin-bottom:0;
-    margin-left:5px;
-    margin-right:5px;
+#navigation li {
+    float: left;
+    height: 29px;
+    margin-right: 1px;
+    background-color: rgb(121,112,102);
+    border-top: 1px;
+    border-color: rgb(132,124,115);
+    border-style: solid;
 }
 
-#navigation ul li a
-{
-    color:blue;
-    padding:2px;
+#navigation li a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    display: block;
+
+    color: rgb(223,213,196);
+    text-align: center;
+    text-transform: capitalize;
 }
+
+
 
 @media only screen and (max-width:481px)
 {
     #navigation 
     {
-        width:310px;
-        margin:0;
+        width:300px;
+        
     }
 
     #navigation ul
     {
         list-style-type:none;
+        padding:5px;
     }
 
     #navigation ul li
     {
-
-    }
-
-    #navigation ul li a
-    {
-        background-color:white;
+        background: linear-gradient(rgb(249,221,99));
+        border-radius: 10px;
         font-size: 20px;
         height: 50px;
         margin: 10px;
@@ -88,7 +96,22 @@
 
         color:blue;
         padding-top: 20px;
+);
+        height: 30px;
+        width: 290px;
+        margin-bottom:10px;
+
+       
+        
+       
+
+    }
+
+    #navigation ul li a
+    {
         text-decoration: none;
+        padding-left: 20px;
+        color: black;
     }
 
 
@@ -96,24 +119,79 @@
 
 #content
 {
-    padding: 20px;
+    padding-left: 40px;
+    padding-right: 0;
+}
+
+@media only screen and (max-width:481px)
+{
+    #content
+    {
+        padding-left: 20px;
+        padding-right: 0;
+    }
 }
 
 #footer {
     clear:left;
 }
 
+#saljtextdel
+{
+    margin: 0 auto;
+    padding-right: 40px;
+}
+
+@media only screen and (max-width:481px)
+{
+    #saljtextdel
+    {
+        width:270px;
+        margin: 0 auto;
+    }
+}
+
+
 #formulärdel1
 {
-    margin-bottom: 10px;
+   
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     
+}
+
+@media only screen and (max-width:481px)
+{
+    #formulärdel1
+    {
+       
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-right: 20px;
+    }
 }
 
 #formulärdel2
 {
-    margin-bottom: 10px;
-    
+  
+    width: 400px;
+    margin: 0 auto;
 }
+
+@media only screen and (max-width:481px)
+{
+    #formulärdel2
+    {
+      
+        width: 250px;
+        margin: 0 auto;
+        padding-right: 20px;
+    }
+}
+
+
 
 .saljtextuppgifter
 {
@@ -132,7 +210,7 @@
     {
         padding:0;
         width: 200px;
-        float:left;        
+        float:none;        
     }
 
 @media only screen and (max-width:481px)
@@ -177,7 +255,7 @@
     
 }
 
-.inlagg {
+.möbel {
             padding-left: 10px;
             padding-right: 10px;          
             border-style: solid;
@@ -186,11 +264,34 @@
             margin-bottom: 10px;
             background-color: white;
             width:250px;
+            height: 500px;
             float:left;
             margin-right:30px;
             }
             
-        .inlaggrubrik {
+.möbelbeskrivtext
+{
+    height: 100px;
+    width: 200px;
+}
+            
+@media only screen and (max-width:481px)
+{
+    .möbel {
+                padding-left: 10px;
+                padding-right: 10px;          
+                border-style: solid;
+                border-width: 1px;
+                border-color: black;
+                margin-bottom: 10px;
+                background-color: white;
+                width:250px;
+                height:500px;
+                }
+    
+}            
+            
+        .möbelrubrik {
             background-image: url(pics/Cr-ations-32.png);
             background-repeat: no-repeat;
             padding-left: 0;
@@ -199,18 +300,23 @@
             margin-bottom: 10px;
         }
         
-        .inlaggavslut {
+        .möbelavslut {
             text-align: right;
             font-size: 0.7em;
             font-style: italic;
         }
         
- .right { 
+ .möbelbild { 
                 padding-top: 10px;
                 width: 200px;
                 height: 200px;
              
         }
+        
+.pristext 
+{
+    font-weight: bold;
+}
         
         @media only screen and (max-width: 481px)
         {

@@ -1,13 +1,32 @@
 
+
+h1{
+    font-family: arial; font-size: 30px; font-weight: normal; letter-spacing: 2px; color:#2E1513; 
+         margin-left:40px;
+    margin-right:40px; 
+}
+p{
+    
+      font-family: helvetica;
+    font-size:19px;
+    margin-left:40px;
+    margin-right:40px;   
+    }    
+    
+    
+    
+
+
 #container{
     
        
    
-    background-color:#FFF;
-    overflow: auto;
-    width:960px;
+    background-color:#F7D74C;
+   overflow:auto;
+    max-width:960px;
     margin: 0 auto;
     padding:0;
+    border-radius:10px;
     
     
     }
@@ -20,19 +39,22 @@
    /* border: 5px solid white;*/
     background-color:white;
     margin: 0 auto;
-    max-width:960px;
+    width:900px;
     height:160px;
-  
+    
   background-image:url(doc/pic/studentmo.png); 
-  background-size: 955px,50px;
+ background-size: 600px;
+ 
    background-position:left;
   background-repeat:no-repeat;
+     border-radius: top 20px;     
+
 }
 
-
+/*
 #navi{
     
-  background-color:black;
+ 
 
 
 }
@@ -69,7 +91,7 @@ color: #371C1C;
 color: #FFF;
 }  
  
- 
+ */
     
     
 
@@ -80,16 +102,23 @@ color: #FFF;
 #content{
     
      
-    background-color:white;
-    width:800px;
-    float:left;
-    padding-top:1px;
-    padding-bottom:100px;
-    margin:0 auto;
+        background-color:white;
+        width:900px;
+        height:800px;
+        padding-top:1px;
+        margin: 0 auto;
       
     
-      
+  
+       background-image:url(doc/pic/bord.JPG) ;
+        background-repeat:no-repeat;
+        background-size: 400px;
+        background-position:bottom left;
+        border-radius:bottom 10px;
+    
+ 
 }
+
 
 
 
@@ -101,20 +130,25 @@ color: #FFF;
    
    
  
-  background-color:white;
-    margin: 0 auto;
-   max-width:100%;
-    height:100px;
-    float:left;
-    width:960px;
+        background-color:white;
+        margin: 0 auto;
+     
+        height:200px;
+        /*float:left;*/
+        width:900px;
     
- background-image:url(doc/pic/Menybakgrund.jpg); 
-  background-size: 800px,100px;
-   background-position:left;
-  background-repeat:no-repeat;
+     
+  
+     
+        background-image:url(doc/pic/fram.png);  
+        background-repeat:no-repeat;
+        
+       background-size: 400px;
+       background-position:right;
+       border-radius:bottom 10px;
+  
   
 }
-
 
 
      

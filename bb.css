@@ -104,18 +104,18 @@ color: #FFF;
      
         background-color:white;
         width:900px;
-        height:800px;
+        height:600px;
         padding-top:1px;
         margin: 0 auto;
       
     
   
-       background-image:url(doc/pic/bord.JPG) ;
-        background-repeat:no-repeat;
+     
+        /*background-repeat:no-repeat;
         background-size: 400px;
         background-position:bottom left;
         border-radius:bottom 10px;
-    
+    */
  
 }
 

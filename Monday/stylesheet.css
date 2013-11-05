@@ -1,0 +1,559 @@
+#container /*För alla skärmsidor*/
+{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(249,221,99);
+    font-family:verdana;
+    border-radius:10px;
+    
+}
+
+@media only screen and (max-width:481px) /*För alla mobilsidor*/
+{
+    #container 
+    {
+        
+        width: 310px;
+        margin: 0 auto;
+        background-color: rgb(249,221,99);
+        font-family:verdana;
+    }
+}
+
+#top /*Gemensam top för alla skärmsidor*/
+{
+    width:900px;
+    height:100px;
+    margin: 0 auto;
+    background-image: url(../doc/pic/studentmo.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+@media only screen and (max-width:481px) /*Gemensam top för alla mobilsidor*/
+{
+    #top
+    {
+        height:70px;   
+        background-image: url(../doc/pic/studentmo2.png);
+        
+        background-repeat: no-repeat;
+        background-color: white;
+        margin:0;
+    }
+}
+
+
+
+nav /*Gemensam meny för alla skärmsidor. Område.*/
+    {
+        padding:0;
+        margin-left: 30px;
+        width: 900px;
+        background-color:rgb(251,234,161);
+        float:left;
+    }
+
+nav ul /*Osorterad lista*/ 
+    {
+        padding: 0;
+        font-family: verdana;
+        font-size: 0.8em;
+        list-style-type: none;
+        margin-top:0;
+    }
+
+nav li /*Listelement*/
+    {
+        float: left;
+        height: 35px;
+        margin-right: 1px;
+        margin-bottom:0;
+        background-color: rgb(121,112,102);
+    }
+
+nav li a /*Länk i listelement*/ 
+    {
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 6px;
+        display: block;
+        color: rgb(223,213,196);
+        text-align: center;
+    }
+
+nav li:a /*Aktiv länk i listelement*/ 
+    { 
+        color: rgb(121,112,102);
+        background-color: rgb(234,231,210);
+    }
+
+nav li:hover /*Muspekare över länk*/ 
+    { 
+        color: rgb(234,231,210);
+        background-color: rgb(156,144,132);
+    }
+
+
+
+@media only screen and (max-width:481px) /*Meny för mobil*/
+{
+
+nav 
+    {
+        padding-top:20px;
+        padding-left:2px;   
+        background-color:rgb(249,221,99);
+        margin: 0;
+        width: 305px;
+        height: 100px;
+        float:none;
+        margin-bottom: 20px;
+    }
+
+nav ul 
+    {
+        width: 305px;
+        float:left;
+        padding:0;
+        font-family: verdana;
+        font-size: 0.9em;
+        list-style-type: none;
+        margin-top:0;
+}
+
+nav li 
+    {
+        width:305px;
+        height: 29px;
+        margin-right: 0;
+        margin-bottom: 5px;
+        padding:0;
+        background-color: rgb(121,112,102);
+        border-radius:5px;
+    }
+
+nav li a 
+    {
+        text-decoration: none;
+        padding-top: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        display: block;
+        color: rgb(223,213,196);
+        text-align: center;
+    }
+  
+}
+
+#content /*För varje skärmsida*/
+    {
+        /*padding-left: 40px;*/
+        padding-top:20px;
+        padding-right: 0;
+        margin-top:0;
+        margin-bottom:0;
+        color: rgb(121,112,102);
+    }
+
+@media only screen and (max-width:481px) /*Content för mobil*/
+    {
+        #content
+        {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+#footer /*Footer för varje sida*/
+    {
+        clear:left;
+        height:100px;
+        width:960px;
+        background-color:rgb(251,234,161);
+        padding:0;
+        font-size:0.6em;
+    }
+
+@media only screen and (max-width:481px) /*Footer för varje sida mobil*/
+{
+#footer 
+    {
+        clear:left;
+        height:100px;
+        width:310px;
+        background-color:rgb(251,234,161);
+        padding:0;
+    }
+    
+}
+
+
+.footertext /*Text på footern*/
+    {
+        padding:10px;
+        font-size:1.0em;
+        color:black;
+        font-style: italic;
+    }
+    
+    
+/*              UNIKT FÖR PRESENTATIONSSIDAN            */
+#textblock
+    {
+        border-radius:20px;
+        background-color:white;
+        border-style:solid ;
+        border-width:1px;
+        border-color:black;
+        width:880px;
+        margin:0 auto;
+        margin-top:40px;
+        height:700px;
+        background-size:350px;
+        background-position:right bottom;
+        background-image:url(pics/fram.png);  
+        background-repeat:no-repeat;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+@media only screen and (max-width:481px) /*Textblocket för mobil*/
+{
+    #textblock
+        {
+            border-radius:20px;
+            background-color:white;
+            border-style:solid ;
+            border-width:1px;
+            border-color:black;
+            width:250px;
+            margin-top:40px;
+            height:910px;
+            background-size:150px;
+            background-position:center bottom;
+            background-image:url(pics/fram.png);  
+            background-repeat:no-repeat;
+            padding-left:10px;
+            padding-right:10px;
+        }
+
+    .rubriktextblock
+        {
+            font-size:1em;        
+        }
+
+}
+
+
+/*              UNIKT FÖR KÖPSIDAN              */
+
+#möbelblock /*Köpsidan för skärm*/
+    {
+        padding-left:40px;
+    }
+
+@media only screen and (max-width:481px) /*Köpsidan för mobil*/
+{
+    #möbelblock 
+        {
+            padding-left:20px;
+        }
+}
+
+.rubrikköpa
+    {
+        padding-top:20px;
+        padding-left:30px;
+        font-family: verdana;
+    }
+
+@media only screen and (max-width:481px)
+{
+    .rubrikköpa
+        {
+            font-size:1.0em;
+            padding-left:20px;
+            font-family:verdana;
+        }
+    
+}
+
+.möbel 
+    {
+        padding-left: 10px;
+        padding-right: 10px;          
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin-bottom: 10px;
+        background-color: white;
+        width:250px;
+        height: 500px;
+        float:left;
+        margin-right:30px;
+    }
+            
+.möbelbeskrivtext
+    {
+        height: 100px;
+        width: 200px;
+    }
+            
+@media only screen and (max-width:481px)
+{
+    .möbel 
+        {
+            padding-left: 10px;
+            padding-right: 10px;          
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            margin-bottom: 10px;
+            background-color: white;
+            width:250px;
+            height:500px;
+        }
+    
+}            
+            
+.möbelrubrik 
+    {
+        padding-left: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid;
+        margin-bottom: 10px;
+    }
+        
+.möbelavslut 
+    {
+        text-align: right;
+        font-size: 0.7em;
+        font-style: italic;
+    }
+        
+ .möbelbild 
+    { 
+        padding-top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+        
+.pristext 
+    {
+        font-weight: bold;
+    }
+        
+@media only screen and (max-width: 481px)
+{
+    .right 
+    {
+        padding: 0;
+        float: none;
+        clear:both;
+        margin-left:0;
+    }
+
+}
+
+
+
+/*          UNIKT FÖR SÄLJSIDAN     */
+
+
+
+#saljtextdel
+{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+@media only screen and (max-width:481px)
+{
+    #saljtextdel
+    {
+        padding-left:20px;
+        padding-right:20px;
+    }
+}
+
+
+#formulärdel1
+{
+   
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}
+
+@media only screen and (max-width:481px)
+{
+    #formulärdel1
+    {
+       
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-right: 20px;
+    }
+}
+
+#formulärdel2
+{
+  
+    width: 400px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:481px)
+{
+    #formulärdel2
+    {
+      
+        width: 250px;
+        margin: 0 auto;
+        padding-right: 20px;
+    }
+}
+
+.saljtextuppgifter
+    {
+        padding:0;
+        width:200px;
+        float:left;
+    }
+
+.saljtextfält
+    {
+        padding:0;
+        width:200px;
+    }
+
+.datumtextuppgifter
+    {
+        padding:0;
+        width: 200px;
+        float:none;        
+    }
+
+@media only screen and (max-width:481px)
+{
+    .datumtextuppgifter
+        {
+            padding:0;
+            width: 200px;
+            float:none;
+        }
+}
+
+.datumfält
+    {
+        width:20px;
+        padding:0;
+    }
+
+.beskrivningtext
+    {
+        padding:0;
+        width: 200px;
+        float:left;
+    }
+
+.beskrivningfalt
+    {
+        width: 200px;
+    }
+
+.bildtext
+    {
+        padding:0;
+        width: 200px;
+        float: left;
+    }
+
+
+/*          UNIKT FÖR GALLERI           */
+
+
+.gallerirubrik
+{
+    
+}
+
+.galleri
+{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+@media only screen and (max-width:481px)
+{
+    .galleri
+    {
+        padding-top: 10px;
+        padding-left: 30px;
+        
+    }
+}
+
+.galleri a
+{
+    background: white;
+	display: inline;
+	float: left;
+	margin: 0 15px 30px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+    position:relative;
+}
+
+.galleri a:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+.galleri img { 
+	display: block; 
+	width: 200px;
+	height: 200px;
+}
+
+@media only screen and (max-width:481px)
+{
+    .galleri img { 
+    	display: block; 
+    	width: 200px;
+    	height: 200px;
+    }
+}
+
+
+.galleri a:hover
+    {
+    	-webkit-transform: rotate(0deg); 
+    	-moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    	-webkit-transform: scale(1.2); 
+    	-moz-transform: scale(1.2);
+        transform: scale(1.2);
+    	z-index:10;
+    	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    }
+

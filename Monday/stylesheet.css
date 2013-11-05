@@ -25,7 +25,7 @@
     width:900px;
     height:100px;
     margin: 0 auto;
-    background-image: url(../doc/pic/studentmo.png);
+    background-image: url(pics/studentmo.png);
     background-repeat: no-repeat;
     background-color: white;
 }
@@ -35,7 +35,7 @@
     #top
     {
         height:70px;   
-        background-image: url(../doc/pic/studentmo2.png);
+        background-image: url(pics/studentmo2.png);
         
         background-repeat: no-repeat;
         background-color: white;
@@ -84,10 +84,11 @@ nav li a /*Länk i listelement*/
         text-align: center;
     }
 
-nav li:a /*Aktiv länk i listelement*/ 
+nav li a.active  /*Aktiv länk i listelement*/ 
     { 
         color: rgb(121,112,102);
         background-color: rgb(234,231,210);
+        height:20px;
     }
 
 nav li:hover /*Muspekare över länk*/ 
@@ -147,6 +148,15 @@ nav li a
         text-align: center;
     }
   
+nav li a.active  /*Aktiv länk i listelement*/ 
+    { 
+        color: rgb(121,112,102);
+        background-color: rgb(234,231,210);
+        height:13px;
+        border-radius:5px;
+    }
+
+
 }
 
 #content /*För varje skärmsida*/
@@ -557,3 +567,51 @@ nav li a
         box-shadow: 0 10px 20px rgba(0,0,0,.7);
     }
 
+
+/*          UNIKT FÖR CONTACT       */
+#textblockcontact
+    {
+        border-radius:20px;
+        background-color:white;
+        border-style:solid ;
+        border-width:1px;
+        border-color:black;
+        width:880px;
+        margin:0 auto;
+        margin-top:40px;
+        height:400px;
+        background-size:250px;
+        background-position: top right;
+        background-image:url(pics/karta2.PNG);  
+        background-repeat:no-repeat;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+@media only screen and (max-width:481px) /*Textblocket för mobil*/
+{
+    #textblockcontact
+        {
+            border-radius:20px;
+            background-color:white;
+            border-style:solid ;
+            border-width:1px;
+            border-color:black;
+            width:250px;
+            margin-top:40px;
+            padding-bottom:0;
+            height:650px;
+            background-size:260px 300px;
+            background-position:bottom center;
+            background-image:url(pics/karta2.PNG);  
+            background-repeat:no-repeat;
+            padding-left:10px;
+            padding-right:10px;
+        }
+
+    .rubriktextblock
+        {
+            font-size:1em;        
+        }
+
+}

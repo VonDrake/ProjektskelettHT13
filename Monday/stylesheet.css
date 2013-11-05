@@ -13,7 +13,7 @@
     #container 
     {
         
-        width: 310px;
+        max-width: 310px;
         margin: 0 auto;
         background-color: rgb(249,221,99);
         font-family:verdana;
@@ -22,7 +22,7 @@
 
 #top /*Gemensam top för alla skärmsidor*/
 {
-    width:900px;
+    max-width:900px;
     height:100px;
     margin: 0 auto;
     background-image: url(pics/studentmo.png);
@@ -34,6 +34,7 @@
 {
     #top
     {
+        max-width:310px;
         height:70px;   
         background-image: url(pics/studentmo2.png);
         
@@ -108,7 +109,7 @@ nav
         padding-left:2px;   
         background-color:rgb(249,221,99);
         margin: 0;
-        width: 305px;
+        max-width: 305px;
         height: 100px;
         float:none;
         margin-bottom: 20px;
@@ -197,6 +198,11 @@ nav li a.active  /*Aktiv länk i listelement*/
         width:310px;
         background-color:rgb(251,234,161);
         padding:0;
+    }
+    
+    .ikoner
+    {
+        display:none;
     }
     
 }
